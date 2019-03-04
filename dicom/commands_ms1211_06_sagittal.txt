@@ -1,4 +1,16 @@
--v /Users/aims/agassi/epic/FreeSurfer6.0//ms1211/postprocessing/FreeSurfer/6.0/ms1211_06_t1v.long.ms1211_base//mri/brain.mgz -f /Users/aims/agassi/epic/FreeSurfer6.0//ms1211/postprocessing/FreeSurfer/6.0/ms1211_06_t1v.long.ms1211_base//mri/lhthalamus:edgecolor=yellow:edgethickness=1
--viewport sagittal -zoom 1 -viewsize 400 400 -slice 1 133 126 -ss sagittal_epic_thalamus_l_ms1211_06_1
--viewport sagittal -zoom 1 -viewsize 400 400 -slice 2 133 126 -ss sagittal_epic_thalamus_l_ms1211_06_2
+-v /Users/aims/agassi/epic/FreeSurfer6.0//ms1211/postprocessing/FreeSurfer/6.0/ms1211_06_t1v.long.ms1211_base//mri/brain.mgz -f /Users/aims/agassi/epic/FreeSurfer6.0//ms1211/postprocessing/FreeSurfer/6.0/ms1211_06_t1v.long.ms1211_base//mri/rhthalamus:edgecolor=yellow:edgethickness=1
+-viewport sagittal -zoom 1 -viewsize 400 400 -slice 102 133 126 -ss sagittal_epic_thalamus_r_ms1211_06_1
+-viewport sagittal -zoom 1 -viewsize 400 400 -slice 104 133 126 -ss sagittal_epic_thalamus_r_ms1211_06_2
+-viewport sagittal -zoom 1 -viewsize 400 400 -slice 106 133 126 -ss sagittal_epic_thalamus_r_ms1211_06_3
+-viewport sagittal -zoom 1 -viewsize 400 400 -slice 108 133 126 -ss sagittal_epic_thalamus_r_ms1211_06_4
+-viewport sagittal -zoom 1 -viewsize 400 400 -slice 110 133 126 -ss sagittal_epic_thalamus_r_ms1211_06_5
+-viewport sagittal -zoom 1 -viewsize 400 400 -slice 112 133 126 -ss sagittal_epic_thalamus_r_ms1211_06_6
+-viewport sagittal -zoom 1 -viewsize 400 400 -slice 114 133 126 -ss sagittal_epic_thalamus_r_ms1211_06_7
+-viewport sagittal -zoom 1 -viewsize 400 400 -slice 116 133 126 -ss sagittal_epic_thalamus_r_ms1211_06_8
+-viewport sagittal -zoom 1 -viewsize 400 400 -slice 118 133 126 -ss sagittal_epic_thalamus_r_ms1211_06_9
+-viewport sagittal -zoom 1 -viewsize 400 400 -slice 120 133 126 -ss sagittal_epic_thalamus_r_ms1211_06_10
+-viewport sagittal -zoom 1 -viewsize 400 400 -slice 122 133 126 -ss sagittal_epic_thalamus_r_ms1211_06_11
+-viewport sagittal -zoom 1 -viewsize 400 400 -slice 124 133 126 -ss sagittal_epic_thalamus_r_ms1211_06_12
+-viewport sagittal -zoom 1 -viewsize 400 400 -slice 126 133 126 -ss sagittal_epic_thalamus_r_ms1211_06_13
+-viewport sagittal -zoom 1 -viewsize 400 400 -slice 128 133 126 -ss sagittal_epic_thalamus_r_ms1211_06_14
 -quit
