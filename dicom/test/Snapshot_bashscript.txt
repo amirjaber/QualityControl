@@ -1,0 +1,76 @@
+case1=$1
+Folder=$2
+study=$3
+regionName=$4
+side=$5
+j=0
+
+if [ $regionName == "thalamus" ];then
+	if [ $side == "r" ];then
+source tesselate.txt $Folder/mri/ 49 $regionName $side
+lowAxial=119;lowSagittal=102;lowCoronal=113;x_axi=118;z_axi=131;y_sag=133;z_sag=126;x_cor=140;y_cor=131;
+highAxial=144;highSagittal=129;highCoronal=148;
+	fi
+	if [ $side == "l" ];then
+source tesselate.txt $Folder/mri/ 10 $regionName $side
+lowAxial=119;lowSagittal=;lowCoronal=;x_axi=138;z_axi=129;y_sag=133;z_sag=126;x_cor=140;y_cor=131;
+highAxial=144;highSagittal=;highCoronal=;
+	fi
+fi
+if [ $regionName == "caudate" ];then
+	if [ $side == "r" ];then
+source tesselate.txt $Folder/mri/ 50 $regionName $side
+lowAxial=109;lowSagittal=104;lowCoronal=119;x_axi=112;z_axi=159;y_sag=127;z_sag=156;x_cor=111;y_cor=123;
+highAxial=141;highSagittal=121;highCoronal=175;
+	fi
+	if [ $side == "l" ];then
+source tesselate.txt $Folder/mri/ 11 $regionName $side
+lowAxial=109;lowSagittal=132;lowCoronal=118;x_axi=140;z_axi=159;y_sag=126;z_sag=150;x_cor=142;y_cor=124;
+highAxial=141;highSagittal=150;highCoronal=173;
+	fi
+fi
+
+if [ $regionName == "putamen" ];then
+	if [ $side == "r" ];then
+source tesselate.txt $Folder/mri/ 51 $regionName $side
+lowAxial=121;lowSagittal=94;lowCoronal=127;x_axi=100;z_axi=148;y_sag=135;z_sag=148;x_cor=151;y_cor=134;
+highAxial=146;highSagittal=115;highCoronal=166;
+	fi
+	if [ $side == "l" ];then
+source tesselate.txt $Folder/mri/ 12 $regionName $side
+lowAxial=121;lowSagittal=139;lowCoronal=127;x_axi=153;z_axi=148;y_sag=135;z_sag=148;x_cor=151;y_cor=134;
+highAxial=146;highSagittal=160;highCoronal=166;
+	fi
+fi
+
+### Overlay White/Gray matter surfaces 
+#echo -v $Folder/mri/brain.mgz $Folder/mri/aseg.mgz:colormap=lut:opacity=0.15 -f $Folder/surf/lh.white:edgecolor=blue $Folder/surf/lh.pial:edgecolor=red $Folder/surf/rh.white:edgecolor=blue $Folder/surf/rh.pial:edgecolor=red
+
+### Overlay outliers
+echo "-v $Folder/mri/brain.mgz -f $Folder/mri/"$side"h"$regionName":edgecolor=yellow:edgethickness=1" > commands_"$case1"_axial.txt
+for i in `seq $lowAxial 2 $highAxial`;
+do
+	j=$[$j+1]; 
+	echo "-viewport axial -zoom 1 -viewsize 400 400 -slice $x_axi $i $z_axi -ss axial_"$study"_"$regionName"_"$side"_"$case1"_"$j"" >> commands_"$case1"_axial.txt
+done
+echo "-quit" >> commands_"$case1"_axial.txt
+
+### Overlay outliers
+echo -v "$Folder/mri/brain.mgz -f $Folder/mri/"$side"h"$regionName":edgecolor=yellow:edgethickness=1" > commands_"$case1"_sagittal.txt
+j=0
+for i in `seq $lowSagittal 2 $highSagittal`;
+do
+        j=$[$j+1];
+        echo "-viewport sagittal -zoom 1 -viewsize 400 400 -slice $i $y_sag $z_sag -ss sagittal_"$study"_"$regionName"_"$side"_"$case1"_"$j"" >> commands_"$case1"_sagittal.txt
+done
+echo "-quit" >> commands_"$case1"_sagittal.txt
+
+j=0
+### Overlay outliers
+echo -v $Folder/mri/brain.mgz -f $Folder/mri/"$side"h"$regionName":edgecolor=yellow:edgethickness=1 > commands_"$case1"_coronal.txt
+for i in `seq $lowCoronal 2 $highCoronal`;
+do
+        j=$[$j+1];
+        echo "-viewport coronal -zoom 1 -viewsize 400 400 -slice $x_cor $y_cor $i -ss coronal_"$study"_"$regionName"_"$side"_"$case1"_"$j"" >> commands_"$case1"_coronal.txt
+done
+echo "-quit" >> commands_"$case1"_coronal.txt

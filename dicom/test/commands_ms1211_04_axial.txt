@@ -1,0 +1,15 @@
+-v /Users/aims/agassi/epic/FreeSurfer6.0//ms1211/postprocessing/FreeSurfer/6.0/ms1211_04_t1v.long.ms1211_base//mri/brain.mgz -f /Users/aims/agassi/epic/FreeSurfer6.0//ms1211/postprocessing/FreeSurfer/6.0/ms1211_04_t1v.long.ms1211_base//mri/rhthalamus:edgecolor=yellow:edgethickness=1
+-viewport axial -zoom 1 -viewsize 400 400 -slice 118 119 131 -ss axial_epic_thalamus_r_ms1211_04_1
+-viewport axial -zoom 1 -viewsize 400 400 -slice 118 121 131 -ss axial_epic_thalamus_r_ms1211_04_2
+-viewport axial -zoom 1 -viewsize 400 400 -slice 118 123 131 -ss axial_epic_thalamus_r_ms1211_04_3
+-viewport axial -zoom 1 -viewsize 400 400 -slice 118 125 131 -ss axial_epic_thalamus_r_ms1211_04_4
+-viewport axial -zoom 1 -viewsize 400 400 -slice 118 127 131 -ss axial_epic_thalamus_r_ms1211_04_5
+-viewport axial -zoom 1 -viewsize 400 400 -slice 118 129 131 -ss axial_epic_thalamus_r_ms1211_04_6
+-viewport axial -zoom 1 -viewsize 400 400 -slice 118 131 131 -ss axial_epic_thalamus_r_ms1211_04_7
+-viewport axial -zoom 1 -viewsize 400 400 -slice 118 133 131 -ss axial_epic_thalamus_r_ms1211_04_8
+-viewport axial -zoom 1 -viewsize 400 400 -slice 118 135 131 -ss axial_epic_thalamus_r_ms1211_04_9
+-viewport axial -zoom 1 -viewsize 400 400 -slice 118 137 131 -ss axial_epic_thalamus_r_ms1211_04_10
+-viewport axial -zoom 1 -viewsize 400 400 -slice 118 139 131 -ss axial_epic_thalamus_r_ms1211_04_11
+-viewport axial -zoom 1 -viewsize 400 400 -slice 118 141 131 -ss axial_epic_thalamus_r_ms1211_04_12
+-viewport axial -zoom 1 -viewsize 400 400 -slice 118 143 131 -ss axial_epic_thalamus_r_ms1211_04_13
+-quit

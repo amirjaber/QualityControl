@@ -1,0 +1,15 @@
+-v /Users/aims/agassi/epic/FreeSurfer6.0//ms1076/postprocessing/FreeSurfer/6.0/ms1076_02_t1v.long.ms1076_base//mri/brain.mgz -f /Users/aims/agassi/epic/FreeSurfer6.0//ms1076/postprocessing/FreeSurfer/6.0/ms1076_02_t1v.long.ms1076_base//mri/lhthalamus:edgecolor=yellow:edgethickness=1
+-viewport axial -zoom 1 -viewsize 400 400 -slice 138 119 129 -ss axial_epic_thalamus_l_ms1076_02_1
+-viewport axial -zoom 1 -viewsize 400 400 -slice 138 121 129 -ss axial_epic_thalamus_l_ms1076_02_2
+-viewport axial -zoom 1 -viewsize 400 400 -slice 138 123 129 -ss axial_epic_thalamus_l_ms1076_02_3
+-viewport axial -zoom 1 -viewsize 400 400 -slice 138 125 129 -ss axial_epic_thalamus_l_ms1076_02_4
+-viewport axial -zoom 1 -viewsize 400 400 -slice 138 127 129 -ss axial_epic_thalamus_l_ms1076_02_5
+-viewport axial -zoom 1 -viewsize 400 400 -slice 138 129 129 -ss axial_epic_thalamus_l_ms1076_02_6
+-viewport axial -zoom 1 -viewsize 400 400 -slice 138 131 129 -ss axial_epic_thalamus_l_ms1076_02_7
+-viewport axial -zoom 1 -viewsize 400 400 -slice 138 133 129 -ss axial_epic_thalamus_l_ms1076_02_8
+-viewport axial -zoom 1 -viewsize 400 400 -slice 138 135 129 -ss axial_epic_thalamus_l_ms1076_02_9
+-viewport axial -zoom 1 -viewsize 400 400 -slice 138 137 129 -ss axial_epic_thalamus_l_ms1076_02_10
+-viewport axial -zoom 1 -viewsize 400 400 -slice 138 139 129 -ss axial_epic_thalamus_l_ms1076_02_11
+-viewport axial -zoom 1 -viewsize 400 400 -slice 138 141 129 -ss axial_epic_thalamus_l_ms1076_02_12
+-viewport axial -zoom 1 -viewsize 400 400 -slice 138 143 129 -ss axial_epic_thalamus_l_ms1076_02_13
+-quit

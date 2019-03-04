@@ -1,0 +1,4 @@
+-v /Users/aims/agassi/epic/FreeSurfer6.0//ms1126/postprocessing/FreeSurfer/6.0/ms1126_base//mri/brain.mgz -f /Users/aims/agassi/epic/FreeSurfer6.0//ms1126/postprocessing/FreeSurfer/6.0/ms1126_base//mri/lhthalamus:edgecolor=yellow:edgethickness=1
+-viewport sagittal -zoom 1 -viewsize 400 400 -slice 1 133 126 -ss sagittal_epic_thalamus_l_ms1126_ba_1
+-viewport sagittal -zoom 1 -viewsize 400 400 -slice 2 133 126 -ss sagittal_epic_thalamus_l_ms1126_ba_2
+-quit

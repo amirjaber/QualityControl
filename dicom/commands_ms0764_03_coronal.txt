@@ -1,0 +1,4 @@
+-v /Users/aims/agassi/epic/FreeSurfer6.0//ms0764/postprocessing/FreeSurfer/6.0/ms0764_03_t1v.long.ms0764_base//mri/brain.mgz -f /Users/aims/agassi/epic/FreeSurfer6.0//ms0764/postprocessing/FreeSurfer/6.0/ms0764_03_t1v.long.ms0764_base//mri/lhthalamus:edgecolor=yellow:edgethickness=1
+-viewport coronal -zoom 1 -viewsize 400 400 -slice 140 131 1 -ss coronal_epic_thalamus_l_ms0764_03_1
+-viewport coronal -zoom 1 -viewsize 400 400 -slice 140 131 2 -ss coronal_epic_thalamus_l_ms0764_03_2
+-quit

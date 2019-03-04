@@ -1,0 +1,4 @@
+-v /Users/aims/agassi/epic/FreeSurfer6.0//ms1304/postprocessing/FreeSurfer/6.0/ms1304_03_t1v.long.ms1304_base//mri/brain.mgz -f /Users/aims/agassi/epic/FreeSurfer6.0//ms1304/postprocessing/FreeSurfer/6.0/ms1304_03_t1v.long.ms1304_base//mri/lhthalamus:edgecolor=yellow:edgethickness=1
+-viewport sagittal -zoom 1 -viewsize 400 400 -slice 1 133 126 -ss sagittal_epic_thalamus_l_ms1304_03_1
+-viewport sagittal -zoom 1 -viewsize 400 400 -slice 2 133 126 -ss sagittal_epic_thalamus_l_ms1304_03_2
+-quit

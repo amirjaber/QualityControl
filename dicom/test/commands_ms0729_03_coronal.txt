@@ -1,0 +1,20 @@
+-v /Users/aims/agassi/epic/FreeSurfer6.0//ms0729/postprocessing/FreeSurfer/6.0/ms0729_03_t1v.long.ms0729_base//mri/brain.mgz -f /Users/aims/agassi/epic/FreeSurfer6.0//ms0729/postprocessing/FreeSurfer/6.0/ms0729_03_t1v.long.ms0729_base//mri/rhthalamus:edgecolor=yellow:edgethickness=1
+-viewport coronal -zoom 1 -viewsize 400 400 -slice 140 131 113 -ss coronal_epic_thalamus_r_ms0729_03_1
+-viewport coronal -zoom 1 -viewsize 400 400 -slice 140 131 115 -ss coronal_epic_thalamus_r_ms0729_03_2
+-viewport coronal -zoom 1 -viewsize 400 400 -slice 140 131 117 -ss coronal_epic_thalamus_r_ms0729_03_3
+-viewport coronal -zoom 1 -viewsize 400 400 -slice 140 131 119 -ss coronal_epic_thalamus_r_ms0729_03_4
+-viewport coronal -zoom 1 -viewsize 400 400 -slice 140 131 121 -ss coronal_epic_thalamus_r_ms0729_03_5
+-viewport coronal -zoom 1 -viewsize 400 400 -slice 140 131 123 -ss coronal_epic_thalamus_r_ms0729_03_6
+-viewport coronal -zoom 1 -viewsize 400 400 -slice 140 131 125 -ss coronal_epic_thalamus_r_ms0729_03_7
+-viewport coronal -zoom 1 -viewsize 400 400 -slice 140 131 127 -ss coronal_epic_thalamus_r_ms0729_03_8
+-viewport coronal -zoom 1 -viewsize 400 400 -slice 140 131 129 -ss coronal_epic_thalamus_r_ms0729_03_9
+-viewport coronal -zoom 1 -viewsize 400 400 -slice 140 131 131 -ss coronal_epic_thalamus_r_ms0729_03_10
+-viewport coronal -zoom 1 -viewsize 400 400 -slice 140 131 133 -ss coronal_epic_thalamus_r_ms0729_03_11
+-viewport coronal -zoom 1 -viewsize 400 400 -slice 140 131 135 -ss coronal_epic_thalamus_r_ms0729_03_12
+-viewport coronal -zoom 1 -viewsize 400 400 -slice 140 131 137 -ss coronal_epic_thalamus_r_ms0729_03_13
+-viewport coronal -zoom 1 -viewsize 400 400 -slice 140 131 139 -ss coronal_epic_thalamus_r_ms0729_03_14
+-viewport coronal -zoom 1 -viewsize 400 400 -slice 140 131 141 -ss coronal_epic_thalamus_r_ms0729_03_15
+-viewport coronal -zoom 1 -viewsize 400 400 -slice 140 131 143 -ss coronal_epic_thalamus_r_ms0729_03_16
+-viewport coronal -zoom 1 -viewsize 400 400 -slice 140 131 145 -ss coronal_epic_thalamus_r_ms0729_03_17
+-viewport coronal -zoom 1 -viewsize 400 400 -slice 140 131 147 -ss coronal_epic_thalamus_r_ms0729_03_18
+-quit

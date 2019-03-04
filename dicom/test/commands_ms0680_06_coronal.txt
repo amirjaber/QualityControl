@@ -1,0 +1,20 @@
+-v /Users/aims/agassi/epic/FreeSurfer6.0//ms0680/postprocessing/FreeSurfer/6.0/ms0680_06_t1v.long.ms0680_base//mri/brain.mgz -f /Users/aims/agassi/epic/FreeSurfer6.0//ms0680/postprocessing/FreeSurfer/6.0/ms0680_06_t1v.long.ms0680_base//mri/rhthalamus:edgecolor=yellow:edgethickness=1
+-viewport coronal -zoom 1 -viewsize 400 400 -slice 140 131 113 -ss coronal_epic_thalamus_r_ms0680_06_1
+-viewport coronal -zoom 1 -viewsize 400 400 -slice 140 131 115 -ss coronal_epic_thalamus_r_ms0680_06_2
+-viewport coronal -zoom 1 -viewsize 400 400 -slice 140 131 117 -ss coronal_epic_thalamus_r_ms0680_06_3
+-viewport coronal -zoom 1 -viewsize 400 400 -slice 140 131 119 -ss coronal_epic_thalamus_r_ms0680_06_4
+-viewport coronal -zoom 1 -viewsize 400 400 -slice 140 131 121 -ss coronal_epic_thalamus_r_ms0680_06_5
+-viewport coronal -zoom 1 -viewsize 400 400 -slice 140 131 123 -ss coronal_epic_thalamus_r_ms0680_06_6
+-viewport coronal -zoom 1 -viewsize 400 400 -slice 140 131 125 -ss coronal_epic_thalamus_r_ms0680_06_7
+-viewport coronal -zoom 1 -viewsize 400 400 -slice 140 131 127 -ss coronal_epic_thalamus_r_ms0680_06_8
+-viewport coronal -zoom 1 -viewsize 400 400 -slice 140 131 129 -ss coronal_epic_thalamus_r_ms0680_06_9
+-viewport coronal -zoom 1 -viewsize 400 400 -slice 140 131 131 -ss coronal_epic_thalamus_r_ms0680_06_10
+-viewport coronal -zoom 1 -viewsize 400 400 -slice 140 131 133 -ss coronal_epic_thalamus_r_ms0680_06_11
+-viewport coronal -zoom 1 -viewsize 400 400 -slice 140 131 135 -ss coronal_epic_thalamus_r_ms0680_06_12
+-viewport coronal -zoom 1 -viewsize 400 400 -slice 140 131 137 -ss coronal_epic_thalamus_r_ms0680_06_13
+-viewport coronal -zoom 1 -viewsize 400 400 -slice 140 131 139 -ss coronal_epic_thalamus_r_ms0680_06_14
+-viewport coronal -zoom 1 -viewsize 400 400 -slice 140 131 141 -ss coronal_epic_thalamus_r_ms0680_06_15
+-viewport coronal -zoom 1 -viewsize 400 400 -slice 140 131 143 -ss coronal_epic_thalamus_r_ms0680_06_16
+-viewport coronal -zoom 1 -viewsize 400 400 -slice 140 131 145 -ss coronal_epic_thalamus_r_ms0680_06_17
+-viewport coronal -zoom 1 -viewsize 400 400 -slice 140 131 147 -ss coronal_epic_thalamus_r_ms0680_06_18
+-quit

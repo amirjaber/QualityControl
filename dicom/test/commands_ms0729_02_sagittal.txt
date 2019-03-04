@@ -1,0 +1,16 @@
+-v /Users/aims/agassi/epic/FreeSurfer6.0//ms0729/postprocessing/FreeSurfer/6.0/ms0729_02_t1v.long.ms0729_base//mri/brain.mgz -f /Users/aims/agassi/epic/FreeSurfer6.0//ms0729/postprocessing/FreeSurfer/6.0/ms0729_02_t1v.long.ms0729_base//mri/rhthalamus:edgecolor=yellow:edgethickness=1
+-viewport sagittal -zoom 1 -viewsize 400 400 -slice 102 133 126 -ss sagittal_epic_thalamus_r_ms0729_02_1
+-viewport sagittal -zoom 1 -viewsize 400 400 -slice 104 133 126 -ss sagittal_epic_thalamus_r_ms0729_02_2
+-viewport sagittal -zoom 1 -viewsize 400 400 -slice 106 133 126 -ss sagittal_epic_thalamus_r_ms0729_02_3
+-viewport sagittal -zoom 1 -viewsize 400 400 -slice 108 133 126 -ss sagittal_epic_thalamus_r_ms0729_02_4
+-viewport sagittal -zoom 1 -viewsize 400 400 -slice 110 133 126 -ss sagittal_epic_thalamus_r_ms0729_02_5
+-viewport sagittal -zoom 1 -viewsize 400 400 -slice 112 133 126 -ss sagittal_epic_thalamus_r_ms0729_02_6
+-viewport sagittal -zoom 1 -viewsize 400 400 -slice 114 133 126 -ss sagittal_epic_thalamus_r_ms0729_02_7
+-viewport sagittal -zoom 1 -viewsize 400 400 -slice 116 133 126 -ss sagittal_epic_thalamus_r_ms0729_02_8
+-viewport sagittal -zoom 1 -viewsize 400 400 -slice 118 133 126 -ss sagittal_epic_thalamus_r_ms0729_02_9
+-viewport sagittal -zoom 1 -viewsize 400 400 -slice 120 133 126 -ss sagittal_epic_thalamus_r_ms0729_02_10
+-viewport sagittal -zoom 1 -viewsize 400 400 -slice 122 133 126 -ss sagittal_epic_thalamus_r_ms0729_02_11
+-viewport sagittal -zoom 1 -viewsize 400 400 -slice 124 133 126 -ss sagittal_epic_thalamus_r_ms0729_02_12
+-viewport sagittal -zoom 1 -viewsize 400 400 -slice 126 133 126 -ss sagittal_epic_thalamus_r_ms0729_02_13
+-viewport sagittal -zoom 1 -viewsize 400 400 -slice 128 133 126 -ss sagittal_epic_thalamus_r_ms0729_02_14
+-quit
