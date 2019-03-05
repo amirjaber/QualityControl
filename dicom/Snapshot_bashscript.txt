@@ -13,8 +13,8 @@ highAxial=144;highSagittal=129;highCoronal=148;
 	fi
 	if [ $side == "l" ];then
 source tesselate.txt $Folder/mri/ 10 $regionName $side
-lowAxial=119;lowSagittal=;lowCoronal=;x_axi=138;z_axi=129;y_sag=133;z_sag=126;x_cor=140;y_cor=131;
-highAxial=144;highSagittal=;highCoronal=;
+lowAxial=119;lowSagittal=128;lowCoronal=113;x_axi=138;z_axi=129;y_sag=133;z_sag=126;x_cor=140;y_cor=131;
+highAxial=144;highSagittal=150;highCoronal=148;
 	fi
 fi
 if [ $regionName == "caudate" ];then

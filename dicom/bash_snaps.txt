@@ -44,7 +44,7 @@ tp=$(echo $line | cut -c 8-9)
 case=$(echo $line | cut -c 1-6)
 Folder=$inputFolder/"$case"/postprocessing/FreeSurfer/6.0/"$line"/
 source Snapshot_bashscript.txt "$case"_"$tp" $Folder $study $regionName $side
-freeview -cmd commands_"$case"_"$tp"_axial.txt
+#freeview -cmd commands_"$case"_"$tp"_axial.txt
 freeview -cmd commands_"$case"_"$tp"_sagittal.txt
 freeview -cmd commands_"$case"_"$tp"_coronal.txt
 #echo $inputFolder/$line/postprocessing/FreeSurfer/6.0/"$line"* | cut -c 76-96

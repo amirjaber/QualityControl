@@ -1,4 +1,3 @@
-ms1304_01_t1v.long.ms1304_base
 ms1304_02_t1v.long.ms1304_base
 ms1304_03_t1v.long.ms1304_base
 ms1304_04_t1v.long.ms1304_base
